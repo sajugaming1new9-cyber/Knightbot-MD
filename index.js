@@ -70,11 +70,11 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = "911234567890"
+let phoneNumber = "01857148644"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "KNIGHT BOT"
-global.themeemoji = "•"
+global.botname = "𓏧ᥫ᭡‼ ️Ꭾʀɪ፝֟ɴᴄᴇᥫ᭡𓍯𓂃።_✅ BOT"
+global.themeemoji = "."
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
 
